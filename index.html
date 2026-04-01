@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Page title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+  <img class="logo" src="flower.PNG" alt="blossom logo"></center>
+  <div class="container">
+      <form>
+     <legend class="hero-title"><b>STUDENT LOGIN</b></legend> <hr><br>
+     <label style="color:white;" for="id number"> Identify Number:</label>
+     <br> <input style="width:14.5rem; height:1.5rem;" type ="text" id="id number" placeholder="Student/Applicant" required><br><br>
+     <br>
+     <label style="color:white;"for="pwd">Password:</label><br>
+     <input style="width:14.5rem; height:1.5rem;"type="password" id="pwd" name="pwd" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[a-z])
+   (?=.*[0-9]) (?=.*[&%#@+])"  title="must contain a letter (uppercase and lowercase), a number a symbol and at least 8 characters"> 
+     <small><p style="text-align:right;">Forget password?</p></small>
+     <button type="submit" value="Login" name="Login" style="background-color:black; color:white; height:2.5rem; width:15rem; text-align:center; border:none"> <b>LOGIN</b></button>
+  </form>    
+  </div>
+</body>
+</html>
